@@ -1,0 +1,49 @@
+.App {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0.1);
+}
+
+h1 {
+    color: darkgrey;
+    text-align: center;
+}
+
+button {
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: #fff;
+    background-color: lightblue;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+li button {
+    background-color: red;
+}
+
+li button:hover {
+    background-color: darkred;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    border-radius: 4px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 12px;
+}
